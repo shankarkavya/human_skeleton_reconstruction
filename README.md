@@ -2,7 +2,7 @@
 
 Reconstructs a 3D skeleton from **4 GoPro exo cameras only** using multi-view triangulation — no ego (Aria) camera needed.
 
-![Pipeline](../exo_skeleton.png)
+![Pipeline](exo_skeleton.png)
 
 ---
 
