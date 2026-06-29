@@ -1,0 +1,12 @@
+rerun-sdk>=0.16
+opencv-python>=4.8
+numpy>=1.24
+scipy>=1.11
+mediapipe>=0.10
+rtmlib
+ego4d
+smplx
+torch>=2.0
+torchvision>=0.15
+Pillow
+tqdm
