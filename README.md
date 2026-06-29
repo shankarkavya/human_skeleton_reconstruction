@@ -1,6 +1,6 @@
 # Exo-Only 3D Human skeleton Reconstruction
 
-Reconstructs a 3D skeleton from **4 GoPro exo cameras only** using multi-view triangulation: no ego (Aria) camera needed.
+Reconstructs a 3D skeleton from **4 GoPro exo cameras only** using multi-view triangulation.
 
 ![Pipeline](exo_skeleton.png)
 
