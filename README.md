@@ -1,6 +1,6 @@
 # Exo-Only 3D Human skeleton Reconstruction
 
-Reconstructs a 3D skeleton from **4 GoPro exo cameras only** using multi-view triangulation — no ego (Aria) camera needed.
+Reconstructs a 3D skeleton from **4 GoPro exo cameras only** using multi-view triangulation: no ego (Aria) camera needed.
 
 ![Pipeline](exo_skeleton.png)
 
@@ -46,18 +46,17 @@ pip install rtmlib rerun-sdk opencv-python numpy
 ## Usage
 
 ```bash
-# Default: indiana_cooking_21_4, frames 250–309
 python src/main.py
 
 # Custom take, frame range, output
 python src/main.py \
-  --take /path/to/egoexo4d/takes/your_take \
+  --take /path/to/data \
   --start 0 \
   --frames 100 \
-  --out output/my_scene.rrd
+  --out output/human_skeleton.rrd
 
 # Open result in Rerun
-rerun output/exo_scene.rrd
+rerun output/exo_skeleton.rrd
 ```
 
 ---
