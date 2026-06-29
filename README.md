@@ -37,7 +37,7 @@ pip install rtmlib rerun-sdk opencv-python numpy
 | Library | Role |
 |---|---|
 | [rtmlib](https://github.com/Tau-J/rtmlib) | RTM lib for inference
-| [RTMPose](../third_party/RTMPose) | Wholebody 2D pose model  |
+| [RTMPose](https://github.com/open-mmlab/mmpose/tree/main/projects/rtmpose) | Wholebody 2D pose model  |
 | rerun-sdk | 3D visualization |
 | opencv-python | Frame I/O |
 
